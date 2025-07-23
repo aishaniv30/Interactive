@@ -18,12 +18,13 @@ struct ContentView: View {
                 .font(.title)
                 .border(Color.gray, width: 1)
             Button("Submit Name"){
+                print("Welcome \(name)!")
             }
             .font(.title2)
             .buttonStyle(.borderedProminent)
             .tint(.purple)
-            .padding()
         }
+        .padding()
     }
 }
 
